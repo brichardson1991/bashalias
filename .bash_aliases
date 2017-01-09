@@ -20,12 +20,15 @@ alias pywa='python ~/pywa/WHATauto.py'
 alias download='cd downloads'
 alias cls='clear'
 
-## Apt sudo shorterned commands
+## Custom sudo apt commands
 alias apt-get='sudo apt-get'
 alias apt-up="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"
 alias apt-remove='sudo apt-get remove'
 alias apt-purge='sudo apt-get --purge  remove'
 alias install='sudo apt-get install'
+
+##Custom sudo Yum commands
+alias yum-up='sudo yum upgrade'
 
 
 ## Directory
