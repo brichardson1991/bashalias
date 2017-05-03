@@ -90,7 +90,6 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 alias wget='wget -c'
 
 #Seedbox-only
-alias xanaxbetter='perl /home/hottwire/apollobetter/xanaxbetter/'
 alias compilation='perl multi.pl --320 --V2 --V0 -output /home/downloads'
 alias pywa='python ~/pywa/WHATauto.py'
 alias download='cd downloads'
