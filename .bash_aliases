@@ -1,5 +1,5 @@
 #reload the aliases file - first load you will need to run manually
-alias reload='source .bash_aliases'
+alias reload='source ~/.bash_aliases'
 
 ## Colourize some commands
 alias ls='ls --color=auto'
