@@ -1,3 +1,4 @@
+#reload the aliases file - first load you will need to run manually
 alias reload='source .bash_aliases'
 
 ## Colourize some commands
@@ -8,7 +9,7 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-
+#list commands
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
@@ -16,9 +17,7 @@ alias vi='vim'
 alias space='du ~/ -s --si'
 alias size='du -hs'
 alias speed='bwm-ng' 
-alias pywa='python ~/pywa/WHATauto.py'
-alias download='cd downloads'
-alias cls='clear'
+
 
 ## Custom sudo apt commands
 alias apt-get='sudo apt-get'
@@ -93,3 +92,5 @@ alias wget='wget -c'
 #Seedbox-only
 alias xanaxbetter='perl /home/hottwire/apollobetter/xanaxbetter/'
 alias compilation='perl multi.pl --320 --V2 --V0 -output /home/downloads'
+alias pywa='python ~/pywa/WHATauto.py'
+alias download='cd downloads'
