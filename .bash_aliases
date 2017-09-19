@@ -21,7 +21,8 @@ alias speed='bwm-ng'
 
 ## Custom sudo apt commands
 alias apt-get='sudo apt-get'
-alias apt-up="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"
+alias apt-up="sudo apt-get update -y && sudo apt-get upgrade -y"
+alias apt-dist-up="sudo apt-get dist-upgrade -y"
 alias apt-remove='sudo apt-get remove'
 alias apt-purge='sudo apt-get --purge  remove'
 alias install='sudo apt-get install'
@@ -89,7 +90,5 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 ## this one saved my butt so many times ##
 alias wget='wget -c'
 
-#Seedbox-only
+#Convert Flac to multiple versions
 alias compilation='perl multi.pl --320 --V2 --V0 -output /home/downloads'
-alias pywa='python ~/pywa/WHATauto.py'
-alias download='cd downloads'
