@@ -91,4 +91,4 @@ alias gpumeminfo='grep -i --color memory /var/log/Xorg.0.log'
 alias wget='wget -c'
 
 #Convert Flac to multiple versions
-alias compilation='perl multi.pl --320 --V2 --V0 -output /home/downloads'
+#alias compilation='perl multi.pl --320 --V2 --V0 -output /home/downloads' ##Helpful for when you have the perl file (will find and add as reference)
